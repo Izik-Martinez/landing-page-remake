@@ -8,40 +8,43 @@ body {
 border: 5px solid purple;
 padding: 0;
 margin: 0;
-
+background-color: rgb(65, 63, 63) !important;
 }
 
 #header {
 
-height: 10vh;
+height: 20vh;
 }
 
 #section1 {
-
-height: 30vh;
+background-color: #0a0e7e;
+height: 50vh;
 }
 
 #section2 {
 
-height: 40vh;
+height: 50vh;
+background-color: #e5e7eb;
 }
 
 #section3 {
 
-    height: 40vh;
+    height: 50vh;
+    background-color: gray;
 }
 
 #section4 {
 
-    height: 40vh;
+    height: 50vh;
+    background-color: #e5e7eb;
 }
         
 div.flex {
 display: flex;
 width: 100%;
 height: 100%;
-background-color: lightblue;
-
+background-color: #1f2397;;
+color: white;
 }
 #headerFlex1 {
 
@@ -51,6 +54,12 @@ background-color: lightblue;
 
     flex-direction: row-reverse;
     align-items: center;
+}
+#headerFlex2>div.divSpan{
+
+margin-right: 20%;
+
+
 }
 #headerLogo {
 
