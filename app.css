@@ -10,12 +10,7 @@ padding: 0;
 margin: 0;
 
 }
-.row {
 
-
-margin: 0;
-
-}
 #header {
 
 height: 10vh;
@@ -48,7 +43,15 @@ height: 100%;
 background-color: lightblue;
 
 }
+#headerFlex1 {
 
+    align-items: center;
+}
+#headerFlex2 {
+
+    flex-direction: row-reverse;
+    align-items: center;
+}
 #headerLogo {
 
 
@@ -58,10 +61,3 @@ margin-left: 20%;
 }
 
 
-#header>.flex {
-
-align-items: center;
-
-
-
-}
