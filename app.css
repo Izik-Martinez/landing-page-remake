@@ -10,7 +10,12 @@ padding: 0;
 margin: 0;
 
 }
+.row {
 
+
+margin: 0;
+
+}
 #header {
 
 height: 10vh;
@@ -37,8 +42,26 @@ height: 40vh;
 }
         
 div.flex {
-
+display: flex;
 width: 100%;
 height: 100%;
 background-color: lightblue;
+
+}
+
+#headerLogo {
+
+
+margin-left: 20%;
+
+
+}
+
+
+#header>.flex {
+
+align-items: center;
+
+
+
 }
