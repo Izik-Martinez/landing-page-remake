@@ -3,6 +3,13 @@ div {
 border: 1px solid red;
 
 }
+body {
+
+border: 5px solid purple;
+padding: 0;
+margin: 0;
+
+}
 
 #header {
 
@@ -14,19 +21,24 @@ height: 10vh;
 height: 30vh;
 }
 
-#section2{
+#section2 {
 
 height: 40vh;
 }
 
-#section3{
+#section3 {
 
     height: 40vh;
 }
 
-#section4{
+#section4 {
 
     height: 40vh;
 }
         
+div.flex {
 
+width: 100%;
+height: 100%;
+background-color: lightblue;
+}
