@@ -15,11 +15,25 @@ background-color: rgb(65, 63, 63) !important;
 
 height: 20vh;
 }
+    
+
+
+
+
 
 #section1 {
 background-color: #0a0e7e;
 height: 50vh;
 }
+ #section1flex{
+
+flex-direction: column;
+
+ }
+
+
+
+
 
 #section2 {
 
@@ -27,11 +41,21 @@ height: 50vh;
 background-color: #e5e7eb;
 }
 
+
+
+
+
+
 #section3 {
 
     height: 50vh;
     background-color: gray;
 }
+
+
+
+
+
 
 #section4 {
 
@@ -39,6 +63,11 @@ background-color: #e5e7eb;
     background-color: #e5e7eb;
 }
         
+
+
+
+
+
 div.flex {
 display: flex;
 width: 100%;
