@@ -54,13 +54,19 @@ align-items: center;
 
 font-size: 48px;
 font-weight: bolder;
-
+margin-left: 20%;
 }
 
 #section1Subtext{
 
 font-size: 18px;
+margin-left: 20%;
+}
 
+#section1Button {
+
+width: auto;
+margin-left: 20%;
 }
 
 #section2 {
@@ -137,5 +143,28 @@ font-size: 24px;
 .row {
 
 border: 1px solid hotpink;
+
+}
+
+
+
+/* Mobile */
+@media (max-width: 480px){
+
+
+    #thisWebsiteIsAwesome{
+      margin-left: auto;
+
+    }
+
+    #section1Subtext{
+        margin-left: auto;
+
+    }
+
+    #section1Button{
+        margin-left: 0;
+
+    }
 
 }
