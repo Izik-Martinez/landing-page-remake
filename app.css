@@ -50,7 +50,18 @@ align-items: center;
     
 }
 
+#thisWebsiteIsAwesome{
 
+font-size: 48px;
+font-weight: bolder;
+
+}
+
+#section1Subtext{
+
+font-size: 18px;
+
+}
 
 #section2 {
 
@@ -100,7 +111,7 @@ color: white;
 
     justify-content: center;
     align-items: center;
-   font-size: large;
+   font-size: 18px;
    white-space: nowrap;
 }
 #headerFlex2>div.divSpan{
@@ -113,7 +124,7 @@ margin-right: 20%;
 
 
 margin-left: 20%;
-
+font-size: 24px;
 
 }
 
