@@ -28,9 +28,8 @@ height: 50vh;
  #section1flex{
 
 flex-direction: column;
-padding-top: 10%;
-padding-left: 10%;
-padding-bottom: 10%;
+justify-content: center;
+
  }
 
 
@@ -46,6 +45,9 @@ align-items: center;
     display: flex;
     width: 40vh;
     height: 20vh;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 
@@ -96,8 +98,10 @@ color: white;
 }
 #headerFlex2 {
 
-    flex-direction: row-reverse;
+    justify-content: center;
     align-items: center;
+   font-size: large;
+   white-space: nowrap;
 }
 #headerFlex2>div.divSpan{
 
