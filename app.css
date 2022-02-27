@@ -28,10 +28,25 @@ height: 50vh;
  #section1flex{
 
 flex-direction: column;
-
+padding-top: 10%;
+padding-left: 10%;
+padding-bottom: 10%;
  }
 
 
+#section1flex2{
+
+justify-content: center;
+align-items: center;
+
+}
+#imageGoesHere{
+
+    background-color: gray;
+    display: flex;
+    width: 40vh;
+    height: 20vh;
+}
 
 
 
