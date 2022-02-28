@@ -138,6 +138,13 @@ height: 20vh;
 
 }
 
+#section2Cols{
+
+    height: 50vh; position: relative;
+
+
+}
+
 #section2HeaderFlex {
 
  justify-content: center;
@@ -224,39 +231,44 @@ color: gray;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* --------------------------------------------------------------------------------- */
 
 
 
 #section3 {
 
-    height: 50vh;
+    height: 70vh;
     background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
+#section3Content{
 
+display: flex;
+flex-direction: column;
+height: 80%;
+width: 80%;
+
+}
+
+#section3Quote{
+
+display: flex;
+height: 80%;
+width: 80%;
+}
+
+#section3QuoteFooter{
+
+display: flex;
+flex-direction: row-reverse;
+height: 20%;
+width: 20%;
+
+}
 
 /* --------------------------------------------------------------------------------- */
 
