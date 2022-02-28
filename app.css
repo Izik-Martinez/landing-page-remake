@@ -132,7 +132,28 @@ height: 50vh;
 background-color: #e5e7eb;
 }
 
+#section2Header {
 
+height: 20vh;
+
+}
+
+#section2HeaderFlex {
+
+ justify-content: center;
+ align-items: center;
+ background-color: white;
+ color: black;
+ font-size: 36px;
+ font-weight: bold;
+
+}
+
+#section2Body {
+
+height: 50vh;
+background-color: peachpuff;
+}
 
 
 
@@ -219,5 +240,27 @@ background-color: #e5e7eb;
         margin-left: 0;
 
     }
+
+/* --------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
