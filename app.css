@@ -242,7 +242,9 @@ color: gray;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    /* position: relative; */
+    margin-top: 160px;
+    /* flex-wrap: wrap; */
 }
 
 #section3Content{
@@ -278,6 +280,8 @@ width: 20%;
 
     height: 50vh;
     background-color: #e5e7eb;
+    display: flex;
+    
 }
         
 
