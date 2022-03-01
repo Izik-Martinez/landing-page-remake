@@ -1,0 +1,84 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+.row{
+
+display: flex;
+flex-wrap: wrap;
+
+}
+
+div.flex{
+
+border: 1px dashed red;
+display: flex;
+}
+
+div.flex>header{
+
+margin-left: 20%;
+
+}
+
+
+
+
+
+
+
+
+.row.one{
+
+background-color: slateblue;
+height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.row.two {
+
+background-color: yellow;
+height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.row.three{
+
+background-color: tomato;
+height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.row.four{
+
+background-color: greenyellow;
+height: 400px;
+}
