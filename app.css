@@ -16,13 +16,24 @@ border: 1px dashed red;
 display: flex;
 }
 
-div.flex>header{
+.marginLeft20 {
 
-margin-left: 20%;
+    margin-left: 20%;
 
 }
 
+.fontSize18 {
 
+font-size: 18px;
+color: white;
+}
+
+.fontSize48{
+
+font-size: 48px;
+color: white;
+
+}
 
 
 
