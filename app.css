@@ -10,7 +10,7 @@ flex-wrap: wrap;
 
 }
 
-div.flex{
+.flex{
 
 border: 1px dashed red;
 display: flex;
@@ -34,6 +34,7 @@ color: white;
 
 font-size: 48px;
 color: white;
+font-weight: bold;
 
 }
 
@@ -47,25 +48,49 @@ color: white;
 .row.one{
 
 background-color: slateblue;
-height: 500px !important;
+height: 400px !important;
 }
 
 .signUpBtn{
 
     width: auto !important;
-    margin-left: 20%;
     border-radius: 5px;
     background-color: lightblue;
     color: white;
     font-weight: bold;
     padding: 2px 18px !important;
+    margin: 16px 0px 50px 20% !important;
 
+}
+.flexEnd{
 
-
+justify-content: end;
 
 }
 
+.flexCenter{
 
+justify-content: center;
+align-items: center;
+
+}
+
+.marginRight20{
+
+margin-right: 20% !important;
+
+}
+.noWrap {
+
+white-space: nowrap;
+
+}
+
+.backgroundGray {
+    height: 75%;
+    width: 75%;
+    background-color: gray;
+}
 
 
 
@@ -110,4 +135,47 @@ height: 450px;
 
 background-color: greenyellow;
 height: 450px;
+}
+
+
+@media (max-width: 480px){
+
+    .signUpBtn{
+
+        width: auto !important;
+        margin-top: 8px !important;
+        border-radius: 5px;
+        background-color: lightblue;
+        color: white;
+        font-weight: bold;
+        padding: 2px 18px !important;
+        
+    
+    }
+
+    .fontSize18 {
+
+        font-size: 12px;
+        color: white;
+        }
+        
+        .fontSize48{
+        
+        font-size: 24px;
+        color: white;
+        font-weight: bold;
+        
+        }
+        .marginLeft20 {
+
+            margin-left: 0%;
+        
+        }
+
+
+
+
+
+
+
 }
