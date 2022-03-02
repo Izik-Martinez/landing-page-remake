@@ -234,16 +234,11 @@ height: 450px;
         }
 
 
-.container{
-
-min-width: 480px;
 
 
-}
+.row.two {
 
-.row {
-
-max-width: 480px;
+height: 675px;
 
 }
 
