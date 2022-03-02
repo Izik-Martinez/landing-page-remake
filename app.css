@@ -115,6 +115,34 @@ height: 450px;
 
 }
 
+.outline {
+
+width: 150px;
+height: 150px;
+border-radius: 10px;
+border: 2px solid blueviolet;
+
+}
+.subtextBoxContainer{
+
+border: 1px solid red;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.outlineSubtext {
+
+border: 1px solid black;
+
+
+}
+.outlineSubtext>p {
+
+color: gray;
+
+}
 .fontSize36 {
 
 font-size: 36px;
