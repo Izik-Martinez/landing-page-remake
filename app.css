@@ -74,7 +74,11 @@ justify-content: center;
 align-items: center;
 
 }
+.backgroundSame{
 
+background-color: slateblue;
+
+}
 .marginRight20{
 
 margin-right: 20% !important;
@@ -105,9 +109,24 @@ background-color: yellow;
 height: 450px;
 }
 
+.rowTwoHeader header{
+
+    margin:30px 0px 30px 0px;
+
+}
+
+.fontSize36 {
+
+font-size: 36px;
+
+
+}
+
+/* .rowTwoMainContent{
 
 
 
+} */
 
 
 
@@ -140,7 +159,7 @@ height: 450px;
 
 @media (max-width: 480px){
 
-    .signUpBtn{
+.signUpBtn{
 
         width: auto !important;
         margin-top: 8px !important;
@@ -149,11 +168,11 @@ height: 450px;
         color: white;
         font-weight: bold;
         padding: 2px 18px !important;
-        
+        margin-left: 0 !important;
     
     }
 
-    .fontSize18 {
+.fontSize18 {
 
         font-size: 12px;
         color: white;
@@ -172,7 +191,12 @@ height: 450px;
         
         }
 
-
+.backgroundGray {
+            height: 200px;
+            width: 300px;
+            background-color: gray;
+            margin-bottom: 50px;
+        }
 
 
 
