@@ -196,7 +196,8 @@ height: 450px;
 .rowThreeMainQuote{
 
 height: 80%;
-border:1px solid brown;
+
+width: 100%;
 
 }
 
@@ -204,7 +205,7 @@ border:1px solid brown;
 .rowThreeQuoteFooter{
 
 height: 20%;
-border: 1px solid orange;
+width: 100%;
 }
 
 .quote{
@@ -223,9 +224,33 @@ border: 1px solid orange;
 
 }
 
+.flexColumn{
+
+flex-direction: column;
+height: 70%;
+width: 70%;
+
+}
+
+.quotePlacement{
+
+justify-content: center;
+align-items: flex-end;
+border: none;
+
+
+}
 
 
 
+
+.quotePlacementTwo{
+
+justify-content: center;
+align-items: flex-start;
+border: none;
+
+}
 .row.four{
 
 background-color: greenyellow;
