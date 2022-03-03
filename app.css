@@ -142,8 +142,7 @@ justify-content: space-evenly;
 .outlineSubtext {
 
 border: 1px solid black;
-
-
+text-align: center;
 }
 .outlineSubtext>p {
 
