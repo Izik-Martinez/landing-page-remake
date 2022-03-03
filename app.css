@@ -230,8 +230,7 @@ width: 100%;
 .flexColumn{
 
 flex-direction: column;
-height: 70%;
-width: 70%;
+
 
 }
 
@@ -254,12 +253,76 @@ align-items: flex-start;
 border: none;
 
 }
+
+
+
+
+
+
+
 .row.four{
 
 background-color: greenyellow;
 height: 450px;
 }
 
+
+.sectionFourFlex{
+
+ background-color:cornflowerblue;
+ border-radius: 10px;
+display: flex;
+height:45%;
+width: 75%;
+
+
+}
+
+.contentSectionFour{
+
+display: flex;
+width:60%;
+height:100px;
+background-color: crimson;
+
+}
+
+
+.signUpBtnSectionFour{
+
+    display: flex;
+    width:20%;
+    height:100px;
+    background-color: darkmagenta;
+
+}
+
+.backgroundNotSame{
+
+background-color: rgb(194, 186, 186);
+
+
+}
+
+.marginZero{
+
+margin: 0% !important;
+
+}
+
+.justifyLeft{
+
+justify-content: center;
+align-items: flex-start;
+
+
+}
+
+.boldThis {
+
+font-weight: bold;
+
+}
 
 @media (max-width: 480px){
 
