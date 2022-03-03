@@ -155,9 +155,13 @@ color: gray;
 
 font-size: 36px;
 
-
 }
 
+.fontSize14{
+
+font-size: 14px;
+
+}
 .sectionTwoFlex1{
 
 padding-left: 10%;
@@ -189,11 +193,35 @@ height: 450px;
 }
 
 
+.rowThreeMainQuote{
+
+height: 80%;
+border:1px solid brown;
+
+}
 
 
+.rowThreeQuoteFooter{
 
+height: 20%;
+border: 1px solid orange;
+}
 
+.quote{
 
+    display: flex;
+    height: 75%;
+    width: 75%;
+    background-color: gray;
+}
+
+.quoteFooter{
+
+  display: flex;
+  height: 75%;
+    width: 75%;
+
+}
 
 
 
