@@ -440,7 +440,7 @@ padding:0%;
    .signUpBtnSectionFour{
    
        display: flex;
-       width:75%;
+       width:65%;
        height:100px;
        
        flex-direction: row-reverse;
