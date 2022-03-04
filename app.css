@@ -458,5 +458,17 @@ padding:0%;
 
    }
 
+   .flex>header{
+
+    font-size: 20px;
+    margin-bottom: 14px;
+    margin-left: 10px;
+
+   }
    
+   .col-sm-4>p{
+
+    margin-left: 10px;
+
+   }
 }
