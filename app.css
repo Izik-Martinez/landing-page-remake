@@ -47,7 +47,7 @@ font-weight: bold;
 
 .row.one{
 
-background-color: #073b4c;
+background-color: #073b4c70;
 height: 400px !important;
 }
 
@@ -76,7 +76,7 @@ align-items: center;
 }
 .backgroundSame{
 
-background-color: #073b4c;
+background-color: #073b4c70;
 
 }
 .marginRight20{
@@ -476,7 +476,7 @@ padding:0%;
    .fontSize36{
 
    margin-bottom: 50px !important;
-   margin-top: 50px !important;
+   margin-top: 5gt0px !important;
 
    }
 }
