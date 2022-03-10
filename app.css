@@ -275,7 +275,10 @@ height: 450px;
 display: flex;
 height:45%;
 width: 75%;
-
+border-right: 4px solid #0d627e;
+border-bottom: 4px solid #0d627e;
+   
+   box-shadow:  4px 4px 8px rgb(49, 49, 49);
 
 }
 
@@ -326,7 +329,8 @@ align-items: flex-start;
 .boldThis {
 
 font-weight: bold;
-text-shadow: 1px 1px 1px black;
+text-shadow: 1px 1px 1px rgba(206, 206, 206, 0.349);
+font-size: 1.25em;
 
 }
 
@@ -427,7 +431,7 @@ padding:0%;
    justify-content: center;
    border-top: 4px solid #0d627e;
    border-bottom: 4px solid #0d627e;
-   box-shadow: 0px 4px 6px rgb(49, 49, 49), 0px -4px 2px rgb(49, 49, 49);
+   box-shadow: 0px 4px 2px rgb(49, 49, 49), 0px -4px 2px rgb(49, 49, 49);
    }
    
    .contentSectionFour{
@@ -443,9 +447,9 @@ padding:0%;
    .signUpBtnSectionFour{
    
        display: flex;
-       width:65%;
+       width:75%;
        height:100px;
-       
+       background: transparent;
        flex-direction: row-reverse;
        justify-content: flex-start;
        align-items: center;
@@ -457,7 +461,7 @@ padding:0%;
 
    .fontSizeSectionFour{
 
-     font-size: 28px;
+     font-size: 24px;
 
    }
 
