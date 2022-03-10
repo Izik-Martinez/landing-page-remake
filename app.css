@@ -24,12 +24,25 @@ height: 100%;
 
 }
 
+.marginLeft947{
+
+margin-left: 94.7px;
+
+}
+
 .fontSize18 {
 
 font-size: 18px;
 color: white;
+
 }
 
+.headerLinkFontSize{
+
+    font-size: 18px;
+    color: white;
+
+}
 .fontSize48{
 
 font-size: 48px;
@@ -341,6 +354,10 @@ margin-right: 0%;
 }
 
 
+
+    
+    
+
 @media (max-width: 480px){
 
 .signUpBtn{
@@ -432,6 +449,7 @@ padding:0%;
    border-top: 4px solid #0d627e;
    border-bottom: 4px solid #0d627e;
    box-shadow: 0px 4px 2px rgb(49, 49, 49), 0px -4px 2px rgb(49, 49, 49);
+   border-right: none;
    }
    
    .contentSectionFour{
@@ -476,7 +494,7 @@ padding:0%;
    .col-sm-4>p{
 
     margin-left: 10px;
-
+    text-decoration: underline;
    }
 
    .fontSize36{
@@ -485,4 +503,16 @@ padding:0%;
    margin-top: 5gt0px !important;
 
    }
+
+   .marginLeft947{
+
+    margin-left: 10px;
+
+   }
+   .headerLinkFontSize {
+
+    font-size: 16px;
+    color: white;
+    
+    }
 }
