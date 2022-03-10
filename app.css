@@ -121,6 +121,8 @@ white-space: nowrap;
 
 background-color: #FFD166;
 height: 450px;
+border-bottom: 2px solid #d1ab51;
+border-right: 2px solid #d1ab51;
 }
 
 .rowTwoHeader header{
